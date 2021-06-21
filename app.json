@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Ryders Driver",
+    "description": "Ryders Driver is an e-hailing app for users. This is the driver version of the app whereby drivers receive transportation orders from users.",
+    "slug": "Ryders-Driver",
+    "privacy": "public",
+    "sdkVersion": "32.0.0",
+    "platforms": ["ios", "android"],
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses your location to provide e-hailing services."
+      },
+      "supportsTablet": false
+    }
+  }
+}
